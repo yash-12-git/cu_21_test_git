@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background: #000;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 12vh;
+    padding: 27px;
+    text-align: end;
+    position: fixed;
+    top: 0px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.ele{
+    display: inline; 
+    padding: 15px;
+}
+
+.ele:hover{
+    text-decoration: underline;
+    background: grey;
+    color: #000;
+}
+
+#About{
+    display: flex;
+    background-image:url(images.jfif);
+    width: 100vw;
+}
+.info{
+
+    width: 50vw;
+    height: 550px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.img{
+    width: 50vw;
+    height: 550px;
+    display: flex;
+    /* background-image: url(profile1.png);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    margin-top: 60px;
+}
+
+#Skills{
+    width: 100vw;
+    height: 600px;
+    background-color: aliceblue;
+}
+
+#Project{
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(139, 163, 118);
+}
+
+#Education{
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(216, 173, 130);
+}
+
+#Contact_Me{
+    width: 100vw;
+    height: 800px;
+    background-color: rgb(169, 156, 96);
+
+    box-sizing: border-box;
+}
+
+.pg5{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(163, 137, 137);
+    box-sizing: border-box;
+}
+
+.con{
+    padding-top: 130px;
+    font-size: 30px;
+    width: 100vw;
+    height: 300px;
+    background-image: url(images.jfif);
+    text-align: center;
+}
+.contact{
+    display: flex;
+}
+.con_left{
+    width: 50vw;
+    height: 500px;
+    background-color: bisque;
+}
+.con_right{
+    width: 50vw;
+    height: 500px;
+    background-color: fuchsia;
+}
