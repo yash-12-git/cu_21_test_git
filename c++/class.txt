@@ -1,0 +1,19 @@
+new keyword
+constructor
+static keyword
+classes and onject
+
+
+0     0
+01     1
+10     2
+11       3
+100      4 
+101     5
+110      6
+0111         7
+1000       8
+1001     9
+1010     10
+10000
+1000000
